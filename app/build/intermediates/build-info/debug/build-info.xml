@@ -5,35 +5,27 @@
     build-mode="COLD"
     density="xxhdpi"
     format="10"
-    ir-eligibility="R_CLASS_CHANGE"
     plugin-version="3.3.2"
-    timestamp="1570731106236"
+    timestamp="1570733238842"
     token="-3067325081909049646"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="741" />
+        duration="0" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="35" />
+        duration="0" />
     <task
         name="verifier"
-        duration="51" />
-
-    <artifact
-        location="C:\Users\ilhan\AndroidStudioProjects\OddOrEvenDay\app\build\intermediates\resources\instant-run\debug\resources-debug.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\ilhan\AndroidStudioProjects\OddOrEvenDay\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
-        type="SPLIT" />
+        duration="0" />
 
     <build
         build-mode="FULL"
-        timestamp="1570731020444"
+        timestamp="1570733214572"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="C:\Users\ilhan\AndroidStudioProjects\OddOrEvenDay\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
@@ -77,15 +69,7 @@
     </build>
     <build
         build-mode="COLD"
-        ir-eligibility="R_CLASS_CHANGE"
-        timestamp="1570731106236"
-        verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="C:\Users\ilhan\AndroidStudioProjects\OddOrEvenDay\app\build\intermediates\resources\instant-run\debug\resources-debug.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\ilhan\AndroidStudioProjects\OddOrEvenDay\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
-            type="SPLIT" />
-    </build>
+        timestamp="1570733238842"
+        verifier="COLD_SWAP_REQUESTED" />
 
 </instant-run>
