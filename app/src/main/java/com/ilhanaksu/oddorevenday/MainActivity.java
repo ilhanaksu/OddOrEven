@@ -21,7 +21,12 @@ public class MainActivity extends AppCompatActivity {
 
 
     }
+    @Override
+    protected void onResume() {
+        super.onResume();
+        setData();
 
+    }
     private void setData() {
         myAwesomeTextView = (TextView) findViewById(R.id.myAwesomeTextView);
         int dayOfTheWeeknumber =  Calendar.getInstance().get(Calendar.DAY_OF_WEEK) -1;
@@ -57,10 +62,5 @@ public class MainActivity extends AppCompatActivity {
         myAwesomeTextView.setText(savedVal);
     }
 
-    @Override
-    protected void onResume() {
-        super.onResume();
-       setData();
 
-    }
 }
